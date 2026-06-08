@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero-image-container">
         {/* 2. Use the variable inside curly braces {} instead of a string path */}
         <img
-          src="/me.png"
+          src="me.png"
           alt="Khan Ong Fernandez Portrait"
           className="blended-portrait"
         />

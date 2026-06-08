@@ -1,12 +1,17 @@
 import React from "react";
 
 function Hero() {
+  const isGitHub =
+    typeof window !== "undefined" &&
+    window.location.pathname.includes("internship-portfolio");
+  const imageSrc = isGitHub ? "/internship-portfolio/me.png" : "/me.png";
+
   return (
     <section className="hero-canvas" id="home">
       <div className="hero-image-container">
         {/* 2. Use the variable inside curly braces {} instead of a string path */}
         <img
-          src="me.png"
+          src={imageSrc}
           alt="Khan Ong Fernandez Portrait"
           className="blended-portrait"
         />

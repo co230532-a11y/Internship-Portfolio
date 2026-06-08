@@ -18,8 +18,8 @@ function Footer() {
             <div className="brand-header">
               <img
                 src="me.png"
-                alt="Khan Ong Fernandez Portrait"
-                className="blended-portrait"
+                alt="Khan Ong Fernandez"
+                className="brand-avatar"
               />
               <span className="brand-name">Khan Ong Fernandez</span>
             </div>

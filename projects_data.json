@@ -1,0 +1,95 @@
+[
+  {
+    "project_name": "Flood Alert System",
+    "project_id": "SYS — 001",
+    "project_sub": "CONCEPT",
+    "category": "mobile",
+    "drive_id": "1HiA1x1kIa3ftY532X3jjN88HlNv1Bc4q",
+    "overview": "A localized disaster response application that combines weather data, alert notifications, and rapid information access for flood-prone communities.",
+    "challenge": "The main challenge was turning live weather data into clear, actionable alerts that users could trust quickly during severe conditions.",
+    "solution": "I structured the app around a lightweight alert pipeline that pulls forecast data, filters risk levels, and presents simplified community-facing warnings.",
+    "tech_tags": ["Android", "Open-Meteo API", "Java", "REST API"]
+  },
+  {
+    "project_name": "Traffic C2 Simulator",
+    "project_id": "SYS — 002",
+    "project_sub": "SIMULATION",
+    "category": "systems",
+    "drive_id": "1zeoT8NadK_6dCHjMWb0iMoVgvjWz_Na_",
+    "overview": "A modular traffic control simulator for modeling vehicle flow, signal timing, and intersection behavior through structured data handling.",
+    "challenge": "The core difficulty was keeping the simulation state predictable while traffic events changed in real time.",
+    "solution": "I used linked structures and finite state logic to keep the traffic model responsive, traceable, and easy to extend.",
+    "tech_tags": ["C++", "Linked Lists", "State Machines", "DSA"]
+  },
+  {
+    "project_name": "Automated Climate Irrigation",
+    "project_id": "SYS — 003",
+    "project_sub": " RESEARCH PROTOTYPE",
+    "category": "iot",
+    "drive_id": "1myELPvYB0J6pRbqZjNsRwmVlQLHQAwNG",
+    "overview": "An automated smart agriculture prototype that monitors microclimate conditions and regulates soil vitals in real time.",
+    "challenge": "The challenge was to read unstable analog sensor values reliably and trigger watering only when thresholds demanded it.",
+    "solution": "I built a microcontroller feedback loop that samples temperature and moisture, then activates a pump through a relay when the soil dries out.",
+    "tech_tags": [
+      "DHT11 Sensor",
+      "Soil Moisture",
+      "C++ / Arduino",
+      "Relay Modules"
+    ]
+  },
+  {
+    "project_name": "Multi-Angle Facial Verification System",
+    "project_id": "SYS — 004",
+    "project_sub": "RESEARCH PROTOTYPE",
+    "category": "ai-ml",
+    "drive_id": "1byCC29ijaYW5DrvYrJoIKYRTBuvvDZy1",
+    "overview": "A biometric terminal that evaluates front, left, and right facial profiles and ranks matches through a structured verification pipeline.",
+    "challenge": "The main issue was preserving accuracy when a user presented different face angles under inconsistent capture conditions.",
+    "solution": "I modeled the pipeline around normalized profile comparison and a baseline score so recognition could degrade gracefully instead of failing abruptly.",
+    "tech_tags": ["Python", "Streamlit", "Inno Setup"]
+  },
+  {
+    "project_name": "ADZU QR Attendance System",
+    "project_id": "SYS — 005",
+    "project_sub": "CONCEPT | PROTOTYPE",
+    "category": "web",
+    "drive_id": "1T5hDi1W_VLm9tCiHK82xpCX1a4azFGKF",
+    "overview": "A proposed attendance system that combines QR scanning and location tracking to simplify daily class logging.",
+    "challenge": "The challenge was keeping attendance fast for students while still preserving basic location validation.",
+    "solution": "I framed the workflow around QR generation, scan capture, and a location-aware validation step for cleaner attendance records.",
+    "tech_tags": ["QR Code", "HTML5", "CSS3", "JavaScript"]
+  },
+  {
+    "project_name": "AI Search Strategies Comparison",
+    "project_id": "SYS — 006",
+    "project_sub": "RESEARCH STUDY",
+    "category": "ai-ml",
+    "drive_id": "1zqzZl1AIVPMD6pPIOVb7gPqXFGcrI6W4",
+    "overview": "A performance evaluation of A* and Greedy Best-First Search inside a sliding 8-tile puzzle environment.",
+    "challenge": "The key task was comparing strategies fairly while keeping the puzzle state and evaluation criteria consistent.",
+    "solution": "I built a controlled comparison flow that measured search behavior across the same problem space and summarized the tradeoffs clearly.",
+    "tech_tags": ["HTML5", "CSS3", "JavaScript", "Gemini AI"]
+  },
+  {
+    "project_name": "SM Cinema Booking App",
+    "project_id": "SYS — 007",
+    "project_sub": "PROTOTYPE",
+    "category": "mobile",
+    "drive_id": "1e4CdAdPmJ7sVl4k72wH7S6IsLJkLDVJl",
+    "overview": "A prototype mobile app for browsing schedules, selecting seats, and making reservations inside a cinema booking flow.",
+    "challenge": "The challenge was presenting schedules and seat selection in a way that felt simple on mobile while keeping the booking steps clear.",
+    "solution": "I organized the app around schedule browsing, seat selection, and reservation confirmation to keep the booking experience focused.",
+    "tech_tags": ["Android", "Java", "XML"]
+  },
+  {
+    "project_name": "Pet-terest: Pet Adoption",
+    "project_id": "SYS — 008",
+    "project_sub": "PROTOTYPE",
+    "category": "web",
+    "drive_id": "1lXl3ZmT_QEtqoDhdA6P4qGzpEvRuMgAW",
+    "overview": "A pet adoption platform that enables users to browse available pets, filter by characteristics, and submit adoption applications through a streamlined digital workflow.",
+    "challenge": "The challenge was presenting detailed pet profiles and matching criteria in an intuitive way while keeping the adoption application process simple and encouraging.",
+    "solution": "I designed the platform around pet browsing with filters, detailed profile cards, and a focused adoption workflow that guides users through each step clearly.",
+    "tech_tags": ["PHP", "Laravel", "SQL"]
+  }
+]
